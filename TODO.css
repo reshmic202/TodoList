@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    
+}
+#nav>h1{
+    font-family:Arial;
+    text-shadow:3px 3px 6px red ;
+
+}
+#homePage{
+    background-color: black;
+    height: 83vh;
+    color: white;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+#homePage>.myForm{
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#homePage>table input{
+    background-color: black;
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 25px;
+}
+#homePage>table button{
+background-color: black;
+color: white;
+width: 100px;
+border: 1px solid white;
+height: 25px;
+font-size: 10px;
+border-radius: 20px;
+
+}
+#homePage>table button:hover{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+#homePage> .myTable{
+    width: 80%;
+    color: white;
+    margin-left:100px ;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border:2px solid white; */
+    margin: 10px;
+    
+
+}
+#homePage>.myTable th{
+    color: blue;
+    
+}
+#homePage>.myTable td{
+    border:2px solid white;
+    text-align: center;
+
+}

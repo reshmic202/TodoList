@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-List Project</title>
+    <link rel="stylesheet" href="TODO.css">
+</head>
+<body>
+    <section id="nav">
+        <h1>TO DO LIST</h1>
+    </section>
+    <section id="homePage">
+        <table class="myForm">
+            <tr>
+                <td><label for="">NAME: </label></td>
+                <td><input minlength="10" maxlength="15" type="text"></td>
+                <td><label for="">SALARY:</label></td>
+                <td><input type="text"></td>
+                <td><label for="">COMPANY:</label></td>
+                <td><input minlength="3" maxlength="15" type="text"></td>
+                <td><button onclick="formHandle()">Create</button></td>
+            </tr>
+        </table>
+        <h1 id="warning"></h1>
+        <table class="myTable">
+            <tr>
+                <th>NAME</th>
+                <th>SALARY</th>
+                <th>COMPANY</th>
+            </tr>
+        </table>
+    </section>
+    <script src="TODO.js"></script>
+</body>
+</html>
